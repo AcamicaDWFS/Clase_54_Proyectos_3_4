@@ -1,8 +1,6 @@
 # Clase_54_Proyectos_3_4
 Ejemplo de pruebas unitarias
 
-# Unit Tests
-
 <!-- TABLE OF CONTENTS -->
 ## Table of Contents
 
