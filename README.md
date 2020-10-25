@@ -18,8 +18,28 @@ Ejemplo de pruebas unitarias
 Example of unit tests using Jasmine, Karma and Phantom, contains the configuration of the different reports that Karma has, such as the console report and the code coverage report.
 
 * uses Istanbul for coverage
-* uses Jasmine for aspects
+* uses Jasmine for aspecs
 * uses PhantomJS as default development browser
+
+#### Jasmine unit tests examples
+
+**Suites.** A suite groups a set of specs or test cases
+**Specs.** A spec declares a test case that belongs to a test suite.
+
+Example:
+```sh
+describe('Calculator', function() {
+
+it('should calculate 3 for 1 + 2', function() {
+    controls.x = 1;
+    controls.y = 2;
+    controls.clickAdd();
+    expect(controls.result).toEqual('3');
+  });
+}
+```
+
+**Expectations.** Expectations are created using the expect() function that takes a value called the actual (this can be values, expressions, variables, functions or objects etc.). 
 
 ### Built With
 The frameworks that you'll use to  built the project
