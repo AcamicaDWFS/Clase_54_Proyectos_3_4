@@ -17,6 +17,10 @@ Ejemplo de pruebas unitarias
 ## About The Project
 Example of unit tests using Jasmine, Karma and Phantom, contains the configuration of the different reports that Karma has, such as the console report and the code coverage report.
 
+* uses Istanbul for coverage
+* uses Jasmine for aspects
+* uses PhantomJS as default development browser
+
 ### Built With
 The frameworks that you'll use to  built the project
 * [Karma](https://karma-runner.github.io)
