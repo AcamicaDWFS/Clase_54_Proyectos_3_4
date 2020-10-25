@@ -1,0 +1,43 @@
+{
+  "name": "karma-seed",
+  "version": "1.0.0",
+  "description": "A seed project for using the Karma test framework",
+  "main": "index.js",
+  "scripts": {
+    "test": "karma start karma.conf.js",
+    "run test": "karma start karma.conf.js --reporters kjhtml",
+    "full-test": "NODE_ENV=test karma start karma.conf.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bbraithwaite/karma-seed"
+  },
+  "keywords": [
+    "karma",
+    "seed",
+    "project"
+  ],
+  "author": "https://github.com/bbraithwaite",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bbraithwaite/karma-seed/issues"
+  },
+  "homepage": "https://github.com/bbraithwaite/karma-seed",
+  "devDependencies": {
+    "istanbul": "^0.3.6",
+    "jshint": "^2.6.0",
+    "jasmine": "3.6.1",
+    "karma": "^5.2.3",
+    "karma-chrome-launcher": "^0.1.7",
+    "karma-opera-launcher": "^1.0.0",
+    "karma-cli": "0.0.4",
+    "karma-coverage": "^2.0.3",
+    "karma-fixture": "^0.2.1-1",
+    "karma-html2js-preprocessor": "^0.1.0",
+    "karma-jasmine": "^4.0.1",
+    "karma-phantomjs-launcher": "^1.0.4",
+    "karma-spec-reporter": "^0.0.32",
+    "karma-coverage-istanbul-reporter": "^3.0.3",
+    "karma-jasmine-html-reporter": "^1.5.4"
+  }
+}
